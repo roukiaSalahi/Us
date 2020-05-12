@@ -6,7 +6,8 @@ h1 {
     text-align: center;
     text-size-adjust: 150px;
 }
-header ul li {
+header ul li a {
+    background-color: black;
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -15,9 +16,11 @@ header ul li {
     
 }
 main ul li img {
-    width: 50%;
+    width: 300px;
+    height: 350px;
 }
 footer {
-    border: solid black;
+    
     color: white;
+    background-color: black;
 }
