@@ -1,0 +1,23 @@
+body {
+    background-color:#F0F2F0;
+    border: solid black;
+}
+h1 { 
+    text-align: center;
+    text-size-adjust: 150px;
+}
+header ul li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+main ul li img {
+    width: 50%;
+}
+footer {
+    border: solid black;
+    color: white;
+}
