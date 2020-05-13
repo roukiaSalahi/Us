@@ -8,6 +8,7 @@ h1 {
     background-color: black;
     color: white;
 }
+
 header ul li{
     display: inline;
     
@@ -44,5 +45,18 @@ footer  {
 p {
     font-size: 20px;
 
+    
+}
+
+h3 {
+    color: lightcoral;
+    
+    text-align: center;
+    font-size: 60px;
+}
+h4 {
+    color: lightcoral;
+    font-size: 30px;
+    text-align: center;
     
 }
