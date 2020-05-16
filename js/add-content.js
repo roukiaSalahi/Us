@@ -30,10 +30,10 @@ var picture =''
     
     var useranswer = prompt ('Guess a name of us!')
     while (useranswer !== 'roukia'&& useranswer !== 'rania' && useranswer !=='ashjan' ) {
-        useranswer = prompt ('Guess again! hint: roukia or rania or ashjn')
+        useranswer = prompt ('Guess again! hint: roukia or rania or ashjan')
     }
 
-var howMany = prompt ( 'how many pictures do you want ?')
+var howMany = prompt ( 'how many pictures do you want to see ?')
 for (var i = 0; i< howMany ; i++) {
     console.log(howMany);
     
@@ -48,7 +48,7 @@ else if (useranswer=='roukia')
 }
 else if (useranswer=='ashjan')
 {
-    picture= picture + "<img src='IMG_3332.JPG'style='width : 20% >" 
+    picture= picture + "<img src='IMG_3332.JPG'style='width : 20%' >" 
 }
 
 }
