@@ -1,23 +1,63 @@
+'use strict';
 
 alert('Hello welcome to our page :)')
+
+
 var hourNow = prompt ( ' what time is it 0 - 23 ? ' ) ;
-console.log(hourNow)
 var greeting;
-var nice;
+
 if (hourNow > 18 && hourNow <= 24 ) {
     greeting ='Good Evening !';
-    nice = 'Have a nice day :)'
+    
 } else if (hourNow > 12 && hourNow <24 ) {
     greeting ='Good Afternoon !';
-    nice = 'Have a nice day :)'
+    
 } else if (hourNow >= 0 && hourNow <24 ) {
     greeting ='Good Morning!';
-    nice = 'Have a nice day :)'
+    
 } else {
     greeting ='Something went wrong!';
+    
+    
+
+ 
 }
-document.write('<h3>'+ greeting +'</h3>');
+
+document.write('<h3>'+greeting+'</h3>')
+
+function guessName(){
+var picture =''
+    
+    var useranswer = prompt ('Guess a name of us!')
+    while (useranswer !== 'roukia'&& useranswer !== 'rania' && useranswer !=='ashjan' ) {
+        useranswer = prompt ('Guess again! hint: roukia or rania or ashjn')
+    }
+
+var howMany = prompt ( 'how many pictures do you want ?')
+for (var i = 0; i< howMany ; i++) {
+    console.log(howMany);
+    
+if (useranswer=='rania')
+{
+picture = picture + "<img src= 'IMG_3331.JPG'style='width:20%'>" 
+
+}
+else if (useranswer=='roukia')
+{
+    picture= picture + "<img src='IMG_3334.JPG'style='width:20%'>"
+}
+else if (useranswer=='ashjan')
+{
+    picture= picture + "<img src='IMG_3332.JPG'style='width : 20% >" 
+}
+
+}
 
 
-document.write('<h4>' + nice + '</h4>');
+return picture
+
+}
+
+
+document.write (guessName())
 
